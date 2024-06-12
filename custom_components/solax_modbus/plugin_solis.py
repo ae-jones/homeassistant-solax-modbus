@@ -205,8 +205,8 @@ NUMBER_TYPES = [
     #
     ###
     SolisModbusNumberEntityDescription(
-        name = "Energy Storage Control",
-        key = "energy_storage_control",
+        name = "Energy Storage Control Number",
+        key = "energy_storage_control_number",
         register = 33132,
         unit = REGISTER_U16,
         register_type = REG_INPUT,
