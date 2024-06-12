@@ -205,22 +205,6 @@ NUMBER_TYPES = [
     #
     ###
     SolisModbusNumberEntityDescription(
-        name = "Energy Storage Control Number",
-        key = "energy_storage_control_number",
-        register = 33132,
-        unit = REGISTER_U16,
-        fmt = "i",
-        initvalue = 0,
-        native_min_value = 0,
-        native_max_value = 9900,
-        native_step = 1,
-        scale = 1,
-        native_unit_of_measurement = UnitOfPower.WATT,
-        device_class = NumberDeviceClass.POWER,
-        allowedtypes = HYBRID,
-        entity_category = EntityCategory.CONFIG,
-    ),
-    SolisModbusNumberEntityDescription(
         name = "Sync RTC Offset",
         key = "sync_rtc_offset",
         unit = REGISTER_U16,
