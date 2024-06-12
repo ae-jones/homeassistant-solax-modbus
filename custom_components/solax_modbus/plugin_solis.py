@@ -205,6 +205,14 @@ NUMBER_TYPES = [
     #
     ###
     SolisModbusNumberEntityDescription(
+        name = "Energy Storage Control",
+        key = "energy_storage_control",
+        register = 33132,
+        unit = REGISTER_U16,
+        register_type = REG_INPUT,
+        allowedtypes = HYBRID,
+    ),
+    SolisModbusNumberEntityDescription(
         name = "Sync RTC Offset",
         key = "sync_rtc_offset",
         unit = REGISTER_U16,
