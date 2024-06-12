@@ -1379,7 +1379,7 @@ SENSOR_TYPES: list[SolisModbusSensorEntityDescription] = [
         key = "energy_storage_control",
         register = 33132,
         register_type = REG_INPUT,
-        scale = 1,
+        unit = REGISTER_U8H,
         allowedtypes = HYBRID,
     ),
     SolisModbusSensorEntityDescription(
